@@ -15,7 +15,7 @@ export class PagesComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(function(){
       init_plugins();
-    },10);
+    },100);
   }
 
 }
